@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Sprint1_EpicBookstoreApplication.Models.Inventory>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">The Book Shelf Odyssey</h1>
+    <p>Welcome</p>
+</div>
+
+<div class="text-left">
+    @foreach (var inventory in Model)
+    {
+        <div>
+            <h4>@inventory.BookName</h4>
+
+            <form action="/Home/AddToCart" method="post">
+                <input type="hidden" name="productId" value="@inventory.Id">
+
+                <!-- Add quantity input field -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" name="quantity" value="1" min="1" required style="width: 50px;">
+                <br>
+                <!-- Add to Cart button -->
+                <button type="submit">Add to Cart</button>
+
+            </form>
+        </div>
+    }
+</div>
