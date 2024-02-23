@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ih79y6SfP86f7yZRsJrtSM3R/ZX/lcrbdTmVXhfTdsVMs1FvgUexk+XSAhz8UVX4WpRXvdVOCleG1i+Q8SKkjQ==",
+  "dgSpecHash": "sPUA7nUmBDni9CBsrnDB6wc8I8RaAxYbqglS7dgf1l+dqKLfNRAivCfaqHT6d0oQJBw4Eonf7B/IbqCLa0wKsA==",
   "success": true,
-  "projectFilePath": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication.csproj",
+  "projectFilePath": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\GitHub\\Sprint1\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali Rees\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Ali Rees\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -11501,11 +11501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication.csproj",
+      "projectUniqueName": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\GitHub\\Sprint1\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication.csproj",
       "projectName": "Sprint1_EpicBookstoreApplication",
-      "projectPath": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication.csproj",
+      "projectPath": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\GitHub\\Sprint1\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication.csproj",
       "packagesPath": "C:\\Users\\Ali Rees\\.nuget\\packages\\",
-      "outputPath": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\obj\\",
+      "outputPath": "E:\\VARSITY COLLEGE\\#YEAR 3\\3.1\\PROG7311 - PROGRAMMING 3A\\GitHub\\Sprint1\\Sprint1_EpicBookstoreApplication\\Sprint1_EpicBookstoreApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

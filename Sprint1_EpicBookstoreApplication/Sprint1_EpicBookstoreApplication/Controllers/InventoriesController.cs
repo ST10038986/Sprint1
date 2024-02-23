@@ -56,7 +56,7 @@ namespace Sprint1_EpicBookstoreApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,BookName,AuthorName,Genre,ISBN,Stock")] Inventory inventory)
+        public async Task<IActionResult> Create([Bind("Id,BookName,AuthorName,Genre,ISBN,Stock,Price")] Inventory inventory)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace Sprint1_EpicBookstoreApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,BookName,AuthorName,Genre,ISBN,Stock")] Inventory inventory)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,BookName,AuthorName,Genre,ISBN,Stock,Price")] Inventory inventory)
         {
             if (id != inventory.Id)
             {

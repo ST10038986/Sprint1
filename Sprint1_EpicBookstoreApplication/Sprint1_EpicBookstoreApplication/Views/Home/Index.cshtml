@@ -4,6 +4,15 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+    .book-item {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd; /* Add border for better separation */
+    }
+</style>
+
 <div class="text-center">
     <h1 class="display-4">The Book Shelf Odyssey</h1>
     <p>Welcome</p>
@@ -12,8 +21,10 @@
 <div class="text-left">
     @foreach (var inventory in Model)
     {
-        <div>
-            <h4>@inventory.BookName</h4>
+        <div class="book-item">
+            <h5>@inventory.BookName : R @inventory.Price</h5>
+            <h6>Author: @inventory.AuthorName</h6>
+            <h6>Genre: @inventory.Genre</h6>
 
             <form action="/Home/AddToCart" method="post">
                 <input type="hidden" name="productId" value="@inventory.Id">
@@ -21,10 +32,9 @@
                 <!-- Add quantity input field -->
                 <label for="quantity">Quantity:</label>
                 <input type="number" name="quantity" value="1" min="1" required style="width: 50px;">
-                <br>
+
                 <!-- Add to Cart button -->
                 <button type="submit">Add to Cart</button>
-
             </form>
         </div>
     }
