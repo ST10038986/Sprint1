@@ -13,6 +13,8 @@ namespace Sprint1_EpicBookstoreApplication.Models
         public int Stock { get; set; }
         public int Price { get; set; }
 
+       // public string ImageUrl { get; set; }
+
     }
 }
 

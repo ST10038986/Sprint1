@@ -4,13 +4,15 @@
     ViewData["Title"] = "Home Page";
 }
 
+
 <style>
     .book-item {
         display: inline-block;
         margin: 10px;
         padding: 10px;
         border: 1px solid #ddd; /* Add border for better separation */
-    }
+        height: 170px; /* Set a fixed height for all book items */
+        }
 </style>
 
 <div class="text-center">
@@ -32,7 +34,7 @@
                 <!-- Add quantity input field -->
                 <label for="quantity">Quantity:</label>
                 <input type="number" name="quantity" value="1" min="1" required style="width: 50px;">
-
+                <br>
                 <!-- Add to Cart button -->
                 <button type="submit">Add to Cart</button>
             </form>

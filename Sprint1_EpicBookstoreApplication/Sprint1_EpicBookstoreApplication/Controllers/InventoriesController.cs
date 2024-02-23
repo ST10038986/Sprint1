@@ -13,18 +13,20 @@ namespace Sprint1_EpicBookstoreApplication.Controllers
     public class InventoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment webhostEnvironment;
 
-        public InventoriesController(ApplicationDbContext context)
+        public InventoriesController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            webhostEnvironment = hostEnvironment;
         }
 
         // GET: Inventories
         public async Task<IActionResult> Index()
         {
-              return _context.Inventory != null ? 
-                          View(await _context.Inventory.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
+            return _context.Inventory != null ?
+                        View(await _context.Inventory.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
         }
 
         // GET: Inventories/Details/5

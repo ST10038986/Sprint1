@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sprint1_EpicBookstoreApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6223f9e060faceb599af49828dede81bd8ce1de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f7502dd57e541944870e6c12ee565952f21d6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sprint1_EpicBookstoreApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sprint1_EpicBookstoreApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

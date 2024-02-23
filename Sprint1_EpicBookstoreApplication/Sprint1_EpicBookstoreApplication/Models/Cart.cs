@@ -9,6 +9,8 @@ namespace Sprint1_EpicBookstoreApplication.Models
         public int ShoppingCartID { get; set; }
 
         public List<Inventory> Inventory { get; set; } = new List<Inventory>();
-       
-    }
+
+    
+
+}
 }
